@@ -12,8 +12,6 @@ if(message){
     messageShow.querySelector('h1').innerText = message;
 }
 
-console.log();
-
 document.querySelector('form').addEventListener('submit', event => {
     event.preventDefault();
     
